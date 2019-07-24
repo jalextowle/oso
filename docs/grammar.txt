@@ -1,0 +1,11 @@
+function ::= "fn" identifier parameter_list "->"? return_list block
+
+block ::= "{" statement* "}"
+
+statement ::= variable_declaration_statement
+
+hex ::= "0x[a-fA-F0-9]+"
+
+number ::= "[0-9]+"
+
+identifier ::= "[a-zA-Z][a-zA-Z0-9]*"
